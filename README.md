@@ -17,9 +17,9 @@
 
 ## Overview
 
-The Gemma AI Wrapper and CLI (Command Line Interface) provides a streamlined interface for interacting with Google's Gemma language models, facilitating easy access to advanced natural language processing (NLP) capabilities. Designed for developers, researchers, and AI enthusiasts, this tool supports a wide range of text generation and processing tasks including conversation, summarization, and question answering.
+The Gemma AI Wrapper and CLI offers a user-friendly way to leverage Google's latest open-source model Gemma, for text generation and processing tasks such as conversation, summarization, and question answering.
 
-Gemma models are lightweight, decoder-only, text-to-text large language models known for their efficiency and performance in various NLP tasks. They are part of Google's broader initiative to make cutting-edge AI technologies accessible to a wider audience.
+This toolkit offers both a Python wrapper and a command-line interface without the need for deep technical knowledge. It supports various model versions, including special instruction-tuned variants, and allows for offline use once the models are downloaded to your system.
 
 ## Key Features
 
@@ -137,6 +137,16 @@ When using the Python wrapper, these configurations can be adjusted by passing p
 ```python
 TextAPI(prompt="Your question goes here.", model="google/gemma-2b-it", api_key="your_api_key", max_tokens=150)
 ```
+
+## Offline Access and Performance Considerations
+
+Once the Gemma model weights are downloaded to your system, they are cached locally, allowing for offline access thereafter. This means subsequent uses do not require an internet connection or the API key, provided you're using the same system and the model weights remain in the cache.
+
+## Running on Limited Hardware
+- Performance: Running large models like Gemma locally can be resource-intensive. Users with limited CPU capabilities may experience slower response times.
+- Offline Use: For offline execution, ensure that the model and tokenizer files are correctly cached. All necessary dependencies must be installed while online.
+- Hardware Requirements: Performance can vary significantly based on the hardware configuration. Users are encouraged to adjust model parameters or use optimized versions of the model for better performance on constrained devices.
+
 
 ## Contributing
 Contributions are welcome!
