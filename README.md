@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/RMNCLDYO/Gemma-AI" title="Go to repo">
-        <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Gemma+AI&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2FRMNCLDYO%2FGemma-AI%2Fmain%2F.github%2Fversion.json" alt="Gemma AI">
+    <a href="https://github.com/RMNCLDYO/gemma-ai-toolkit" title="Go to repo">
+        <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Gemma+AI Toolkit&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2FRMNCLDYO%2Fgemma-ai-toolkit%2Fmain%2F.github%2Fversion.json" alt="Gemma AI Toolkit">
     </a>
 </p>
 
@@ -17,7 +17,7 @@
 
 ## Overview
 
-The Gemma AI Wrapper and CLI offers a user-friendly way to leverage Google's latest open-source model Gemma, for text generation and processing tasks such as conversation, summarization, and question answering.
+The Gemma AI Toolkit offers a user-friendly way to leverage Google's latest open-source model Gemma, for text generation and processing tasks such as conversation, summarization, and question answering.
 
 This toolkit offers both a Python wrapper and a command-line interface without the need for deep technical knowledge. It supports various model versions, including special instruction-tuned variants, and allows for offline use once the models are downloaded to your system.
 
@@ -29,10 +29,9 @@ This toolkit offers both a Python wrapper and a command-line interface without t
 - **Flexible Configuration**: Allows users to tailor model settings, such as model selection and token generation limits, to their specific needs.
 
 ## Prerequisites
-
-- Python 3.6 or newer.
+- `Python 3.6` or newer.
 - Internet connection for downloading model weights and dependencies (only required for download not use).
-- An API key from Hugging Face (if accessing models not cached locally).
+- An API key from Hugging Face (if accessing models that are not cached locally).
 
 ## Dependencies
 The following Python packages are required:
@@ -44,18 +43,22 @@ The following Python packages are optional:
 - `python-dotenv`: For managing API keys and other environment variables.
 
 ## Installation
-Follow these steps to set up the Gemma AI Wrapper and CLI on your system:
+To use the Gemma AI Toolkit, clone the repository to your local machine and install the required Python packages.
 
-Clone the repository:
-```bash
-git clone https://github.com/RMNCLDYO/Gemma-AI.git
-cd Gemma-AI
-```
+1. Clone the repository:
+    ```shell
+    git clone https://github.com/RMNCLDYO/gemma-ai-toolkit.git
+    ```
 
-Install required Python packages:
-```bash
-pip install -r requirements.txt
-```
+2. Navigate to the repositories folder:
+    ```shell
+    cd gemma-ai-toolkit
+    ```
+
+3. Install the required dependencies:
+    ```shell
+    pip install -r requirements.txt
+    ```
 
 ## Accessing Gated Models
 
@@ -72,7 +75,10 @@ Once granted access, you can use your Hugging Face API key with this wrapper to 
 ### Setting Up Your API Key
 
 1. If not using locally cached models, obtain an API key (token) from [Hugging Face](https://huggingface.co/settings/tokens).
-2. You can set the API key in an environment variable `API_KEY`, or pass it directly to the CLI or wrapper.
+2. Create or rename the .env file in the project's root directory and add your API key:
+   ```makefile
+   API_KEY=your_api_key
+   ```
 
 ### Using the Command-Line Interface
 
@@ -146,7 +152,6 @@ Once the Gemma model weights are downloaded to your system, they are cached loca
 - Performance: Running large models like Gemma locally can be resource-intensive. Users with limited CPU capabilities may experience slower response times.
 - Offline Use: For offline execution, ensure that the model and tokenizer files are correctly cached. All necessary dependencies must be installed while online.
 - Hardware Requirements: Performance can vary significantly based on the hardware configuration. Users are encouraged to adjust model parameters or use optimized versions of the model for better performance on constrained devices.
-
 
 ## Contributing
 Contributions are welcome!
