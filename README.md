@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://ai.google.dev/gemma/" title="Go to Gemma homepage">
-        <img src="https://img.shields.io/badge/Google%20Gemma%20AI-45a5ff?style=for-the-badge&logo=googlebard&logoColor=fff" alt="Google Gemma AI">
+        <img src="https://img.shields.io/badge/Gemma%20AI-45a5ff?style=for-the-badge&logo=googlebard&logoColor=fff" alt="Gemma AI">
     </a>
 </p>
 
