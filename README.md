@@ -6,7 +6,7 @@
 
 <p align="center">
     <a href="https://github.com/RMNCLDYO/gemma-ai-toolkit" title="Go to repo">
-        <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Gemma+AI Toolkit&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2FRMNCLDYO%2Fgemma-ai-toolkit%2Fmain%2F.github%2Fversion.json" alt="Gemma AI Toolkit">
+        <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Gemma+AI+Toolkit&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2FRMNCLDYO%2Fgemma-ai-toolkit%2Fmain%2F.github%2Fversion.json" alt="Gemma AI Toolkit">
     </a>
 </p>
 
