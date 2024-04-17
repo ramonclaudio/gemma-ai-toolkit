@@ -130,6 +130,8 @@ The tool allows for advanced configurations including specifying the model versi
 - `--api_key`: Your Hugging Face API key.
 - `--max_tokens`: The maximum number of tokens to generate.
 
+> *To exit the program at any time, you can type **`exit`** or **`quit`**. This command works similarly whether you're interacting with the program via the CLI or through the Python wrapper ensuring that you can easily and safely conclude your work with the Gemma AI Toolkit without having to resort to interrupt signals or forcibly closing the terminal or command prompt.*
+
 ### Python Wrapper Options
 
 When using the Python wrapper, these configurations can be adjusted by passing parameters to the `ChatAPI` class:
