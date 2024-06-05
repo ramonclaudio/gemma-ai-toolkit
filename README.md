@@ -22,11 +22,11 @@ The Gemma AI Toolkit offers a user-friendly way to leverage Google's latest open
 This toolkit offers both a Python wrapper and a command-line interface without the need for deep technical knowledge. It supports various model versions, including special instruction-tuned variants, and allows for offline use once the models are downloaded to your system.
 
 ## Key Features
-
-- **Python Wrapper**: Simplifies programmatic access to Gemma models, enabling easy integration into applications.
-- **Command-Line Interface**: Offers direct interaction with Gemma models for quick testing and experimentation.
-- **Support for Multiple Models**: Compatibility with multiple Gemma model versions, including both base and instruction-tuned variants like `gemma-2b-it` and `gemma-7b-it`.
-- **Flexible Configuration**: Allows users to tailor model settings, such as model selection and token generation limits, to their specific needs.
+- **Conversational AI**: Create interactive, real-time chat experiences (chatbots) or AI assistants.
+- **Text Generation**: Produce coherent and contextually relevant text and answers from simple prompts.
+- **Offline Capability**: Utilize models offline once downloaded, reducing dependency on an internet connection.
+- **Highly Customizable**: Tailor settings like model version, maximum tokens and more to suit your specific requirements.
+- **Lightweight Integration**: Efficiently designed with minimal dependencies, requiring only the `torch` and `transformers` packages for core functionality.
 
 ## Prerequisites
 - `Python 3.6` or newer.
