@@ -5,7 +5,7 @@ from gemma_text import TextAPI
 print("------------------------------------------------------------------\n")
 print("                             Gemma AI                             \n")
 print("               API Wrapper & Command-line Interface               \n")
-print("                       [v1.0.0] by @rmncldyo                      \n")
+print("                       [v1.0.0] by @ramonclaudio                      \n")
 print("------------------------------------------------------------------\n")
 
 def main():
